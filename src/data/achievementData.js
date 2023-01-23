@@ -3,27 +3,27 @@ export const achievementData = {
     achievements : [
         {
             id : 1,
-            title : 'Google Cloud certification',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
+            title : 'Living our values award : Optum stratathon Season 3',
+            details : 'College winners and values award for optum stratathon Season 3 for formulating idea and working on model that can solve problem of medicine non-adherence',
+            date : 'Aug 20, 2021',
             field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            image : 'https://i.ibb.co/5M0hdbz/optum.jpg'
         },
         {
             id : 2,
-            title : 'AWS Certification',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : '4 star coder at codechef',
+            details : 'solved more than 300 questions and participeted in more than 45 contests on codechef',
+            date : 'present',
+            field : 'Competitive coding',
+            image : 'https://i.ibb.co/ct4pFPy/Screenshot-75.png'
         },
         {
             id : 3,
-            title : 'Professional Data Engineer Certification',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'Specialist at codeforces',
+            details : 'solved more than 300 questions and participeted in more than 45 contests on codeforces',
+            date : 'Present',
+            field : 'Competitive coding',
+            image : 'https://i.ibb.co/C0X1Zcm/Screenshot-76.png'
         }
 
     ]

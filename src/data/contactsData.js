@@ -1,7 +1,7 @@
 export const contactsData = {
-    email: 'webdeveshverma@gmail.com',
-    phone: '+91 7060596109',
-    address: 'Shastri Nagar Ghaziabad',
+    email: 'sg7287732@gmail.com',
+    phone: '+91 6295589550',
+    address: 'New Township,Siliguri',
 
     sheetAPI: 'https://sheetdb.io/api/v1/tt5b8x0x5sbmo'
 }

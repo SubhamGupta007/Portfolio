@@ -11,30 +11,30 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     
     {
+        id: 1,
+        projectName: 'PARCAR',
+        projectDesc: "Parking management application showing live, the number of free spaces per slots developed for owners of parking lots",
+        tags: ['React Js','HTML', 'CSS', 'JavaScript'],
+        code: 'https://github.com/SubhamGupta007/Parcar',
+        demo: 'https://parcar.netlify.app/',
+        image: 'https://i.ibb.co/gmCXVPY/Screenshot-72.png'
+    },
+    {
         id: 2,
-        projectName: 'MARRIOTT BONOY CLONE',
-        projectDesc: 'It is a web application to book hotels.',
-        tags: ['HTML', 'CSS', 'JavaScript'],
-        code: 'https://github.com/webdeveshverma/Marriott_Bonvoy_clone.github.io',
-        demo: 'https://personal-iota-flame.vercel.app/',
-        image: 'https://i.ibb.co/HrWfTyr/Marriott.png'
+        projectName: 'REALTOR',
+        projectDesc: 'Real estate web application for searching property , buying or renting',
+        tags: ['React Js','REDUX','HTML','Chalra UI','API'],
+        code: 'https://github.com/SubhamGupta007/Realestata',
+        demo: 'https://realestata.vercel.app/',
+        image: 'https://i.ibb.co/48zzxqP/Screenshot-74.png'
     },
     {
         id: 3,
-        projectName: 'Agoda Clone',
-        projectDesc: 'Agoda is one of the world fastest growing online travel booking platforms. From its beginnings as an e-commerce start-up based in Singapore in 2005.',
-        tags: ['RACT','REDUX','MONGODB','JSX','EXPRESS','MONGOOSE'],
-        code: 'https://github.com/shailendra7518/Agoda-clone',
-        demo: 'https://agoda-clone.vercel.app/',
-        image: 'https://i.ibb.co/5TJzyWQ/AGODA-CLONE.jpg'
-    },
-    {
-        id: 4,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Openweather API', 'JavaScript', 'HTML', 'CSS'],
-        code: 'https://github.com/webdeveshverma/Check-Weather-Appliction-',
-        demo: 'https://webdeveshverma.github.io/Check-Weather-Appliction-/',
+        projectName: 'RAAHAT.rx',
+        projectDesc: 'Consulting web application for Diabetic patients',
+        tags: ['API', 'JavaScript', 'HTML', 'CSS','Agoda'],
+        code: 'https://github.com/SubhamGupta007/Raahat',
+        demo: 'https://raahat.herokuapp.com/',
         image: 'https://i.ibb.co/C9hZWVN/Weather-app.png'
     },
    

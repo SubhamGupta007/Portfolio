@@ -9,7 +9,8 @@ import {
     FaLinkedinIn,
     FaGithub,
     FaMediumM,
-    // FaInstagram,
+    FaInstagram,
+    FaFacebook,
     // FaYoutube,
     // FaBloggerB,
     // FaRedditAlien,
@@ -176,7 +177,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='Devesh Verma'
+                                    placeholder='Subham Gupta'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -192,7 +193,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='devesh@gmail.com'
+                                    placeholder='subham@gmail.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -313,14 +314,14 @@ function Contacts() {
                         </div>
 
                         <div className='socialmedia-icons'>
-                            {socialsData.twitter && (
+                            {socialsData.facebook && (
                                 <a
-                                    href={socialsData.twitter}
+                                    href={socialsData.facebook}
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaTwitter aria-label='Twitter' />
+                                    <FaFacebook aria-label='facebook' />
                                 </a>
                             )}
                             {socialsData.github && (
@@ -343,7 +344,7 @@ function Contacts() {
                                     <FaLinkedinIn aria-label='LinkedIn' />
                                 </a>
                             )}
-                            {/* {socialsData.instagram && (
+                            {socialsData.instagram && (
                                 <a
                                     href={socialsData.instagram}
                                     target='_blank'
@@ -352,8 +353,8 @@ function Contacts() {
                                 >
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
-                            )} */}
-                            {socialsData.medium && (
+                            )}
+                            {/* {socialsData.medium && (
                                 <a
                                     href={socialsData.medium}
                                     target='_blank'
@@ -362,7 +363,7 @@ function Contacts() {
                                 >
                                     <FaMediumM aria-label='Medium' />
                                 </a>
-                            )}
+                            )} */}
                             
                             {/* {socialsData.blogger && (
                                 <a

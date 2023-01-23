@@ -12,9 +12,10 @@ import {
     FaTwitter,
     FaLinkedin,
     FaGithub,
+    FaInstagram
     // FaYoutube,
     // FaBlogger,
-    FaMediumM
+   
 } from 'react-icons/fa';
 
 function Landing() {
@@ -102,7 +103,7 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {/* {socialsData.twitter && (
                             <a
                                 href={socialsData.twitter}
                                 target='_blank'
@@ -114,7 +115,7 @@ function Landing() {
                                     aria-label='Twitter'
                                 />
                             </a>
-                        )}
+                        )} */}
                         {/* {socialsData.youtube && (
                             <a
                                 href={socialsData.youtube}
@@ -128,7 +129,20 @@ function Landing() {
                                 />
                             </a>
                         )} */}
-                         {socialsData.medium && (
+                        {socialsData.instagram && (
+                            <a
+                                href={socialsData.instagram}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaInstagram
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='YouTube'
+                                />
+                            </a>
+                        )}
+                         {/* {socialsData.medium && (
                                 <a
                                     href={socialsData.medium}
                                     target='_blank'
@@ -140,7 +154,7 @@ function Landing() {
                                      style={{ color: theme.secondary }}
                                      aria-label='Medium' />
                                 </a>
-                            )}
+                            )} */}
                         {/* {socialsData.blogger && (
                             <a
                                 href={socialsData.blogger}
